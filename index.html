@@ -4,18 +4,20 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Mundo Invertido | Semana Front-end</title>
+
+    <link rel="stylesheet" href="assets/css/styles.css" />
 </head>
-<body>
-    <header>
-        <audio id="music">
+<body class="light-theme" aria-label="O site está utilizando o tema light" role="body">
+    <header aria-label="Cabeçalho da página.">
+        <audio id="music" autoplay>
             <source src="assets/musics/normal-world.mpeg" />
         </audio>
 
         <div class="header-content">
             <img class="invert-element" src="assets/images/banner/logo.svg" alt="Imagem principal">
             <p class="invert-element" role="text">
-                Uma jornada para quem não tem medo de desconhecido. O caminho para o 
+                Uma jornada para quem não tem medo do desconhecido. O caminho para o 
                 Mundo Invertido é incerto, repleto de obstáculos e perigos. Porém, a
                 recompensa é grande: salvar Hawkings e o mundo todo das garras de 
                 Vecna. Você está preparado? Então clique no botão abaixo para entrar
@@ -28,6 +30,7 @@
     </header>
     
     <main>
+        <div id="bottom-characters" class="world-characters"></div>
         <section id="section-inverted-world" class="container">
             <div class="section-texts">
                 <h1>O Mundo Invertido</h1>
